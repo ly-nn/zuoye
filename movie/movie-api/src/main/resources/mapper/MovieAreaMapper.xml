@@ -9,8 +9,9 @@
 
     <insert id="add" parameterType="movieArea">
 		insert  into  t_moviearea  (movieId,areaId) values (#{movieId},#{areaId})
-
 	</insert>
+	
+	
 
 
 </mapper>
